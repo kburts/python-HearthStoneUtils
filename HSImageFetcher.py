@@ -3,8 +3,11 @@ import urllib
 
 
 '''
-Program to search through a .csv file and retrieve all of the images.
-can be modified to get other information about the cards.
+Program to search through a .csv file and retrieve all of the images
+    using urllib and save them to a file.
+Can be modified to get other information about the cards.
+
+Saves to images/ folder, which may need to me created.
 '''
 
 with open('Hearthstone_cards.csv', 'r') as csvcards:
@@ -18,3 +21,4 @@ with open('Hearthstone_cards.csv', 'r') as csvcards:
             # This is required because the first row of the csv file is not a url
             print Exception
 
+print "DONE!"

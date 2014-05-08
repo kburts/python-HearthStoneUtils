@@ -1,0 +1,6 @@
+# Python bytecode:
+*.py[co]
+
+# All the image files (~48 megs)
+*.png
+
